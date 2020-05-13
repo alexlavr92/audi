@@ -1,0 +1,3296 @@
+/* stylelint-disable */
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+/* Document
+   ========================================================================== */
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+ html {
+    line-height: 1.15;
+    /* 1 */
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    /* 2 */
+  }
+  /* Sections
+     ========================================================================== */
+  /**
+   * Remove the margin in all browsers.
+   */
+  body {
+    margin: 0;
+    width: 100%
+  }
+  /**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+  h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+  }
+  /* Grouping content
+     ========================================================================== */
+  /**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+  hr {
+    -webkit-box-sizing: content-box;
+            box-sizing: content-box;
+    /* 1 */
+    height: 0;
+    /* 1 */
+    overflow: visible;
+    /* 2 */
+  }
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  pre {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+  }
+  /* Text-level semantics
+     ========================================================================== */
+  /**
+   * Remove the gray background on active links in IE 10.
+   */
+  a {
+    background-color: transparent;
+  }
+  /**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+  abbr[title] {
+    border-bottom: none;
+    /* 1 */
+    text-decoration: underline;
+    /* 2 */
+    -webkit-text-decoration: underline dotted;
+            text-decoration: underline dotted;
+    /* 2 */
+  }
+  /**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+  b,
+  strong {
+    font-weight: bolder;
+  }
+  /**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+  code,
+  kbd,
+  samp {
+    font-family: monospace, monospace;
+    /* 1 */
+    font-size: 1em;
+    /* 2 */
+  }
+  /**
+   * Add the correct font size in all browsers.
+   */
+  small {
+    font-size: 80%;
+  }
+  /**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+  sub,
+  sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+  sub {
+    bottom: -0.25em;
+  }
+  sup {
+    top: -0.5em;
+  }
+  /* Embedded content
+     ========================================================================== */
+  /**
+   * Remove the border on images inside links in IE 10.
+   */
+  img {
+    border-style: none;
+  }
+  /* Forms
+     ========================================================================== */
+  /**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+  button,
+  input,
+  optgroup,
+  select,
+  textarea {
+    font-family: inherit;
+    /* 1 */
+    font-size: 100%;
+    /* 1 */
+    line-height: 1.15;
+    /* 1 */
+    margin: 0;
+    /* 2 */
+    border-radius: 0;
+    -webkit-border-radius: 0
+  }
+  /**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+  button,
+  input {
+    /* 1 */
+    overflow: visible;
+  }
+  input:not([type=checkbox]):not([type=radio]),
+textarea, 
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none
+}
+  /**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+  button,
+  select {
+    /* 1 */
+    text-transform: none;
+  }
+  /**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+  button,
+  [type="button"],
+  [type="reset"],
+  [type="submit"] {
+    -webkit-appearance: button;
+  }
+  /**
+   * Remove the inner border and padding in Firefox.
+   */
+  button::-moz-focus-inner,
+  [type="button"]::-moz-focus-inner,
+  [type="reset"]::-moz-focus-inner,
+  [type="submit"]::-moz-focus-inner {
+    border-style: none;
+    padding: 0;
+  }
+  /**
+   * Restore the focus styles unset by the previous rule.
+   */
+  button:-moz-focusring,
+  [type="button"]:-moz-focusring,
+  [type="reset"]:-moz-focusring,
+  [type="submit"]:-moz-focusring {
+    outline: 1px dotted ButtonText;
+  }
+  /**
+   * Correct the padding in Firefox.
+   */
+  fieldset {
+    padding: 0.35em 0.75em 0.625em;
+  }
+  /**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+  legend {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* 1 */
+    color: inherit;
+    /* 2 */
+    display: table;
+    /* 1 */
+    max-width: 100%;
+    /* 1 */
+    padding: 0;
+    /* 3 */
+    white-space: normal;
+    /* 1 */
+  }
+  /**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+  progress {
+    vertical-align: baseline;
+  }
+  /**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+  textarea {
+    overflow: auto;
+  }
+  /**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+  [type="checkbox"],
+  [type="radio"] {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    /* 1 */
+    padding: 0;
+    /* 2 */
+  }
+  /**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+  [type="number"]::-webkit-inner-spin-button,
+  [type="number"]::-webkit-outer-spin-button {
+    height: auto;
+  }
+  /**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+  [type="search"] {
+    -webkit-appearance: textfield;
+    /* 1 */
+    outline-offset: -2px;
+    /* 2 */
+  }
+  /**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+  [type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+  }
+  /**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+  ::-webkit-file-upload-button {
+    -webkit-appearance: button;
+    /* 1 */
+    font: inherit;
+    /* 2 */
+  }
+  /* Interactive
+     ========================================================================== */
+  /*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+  details {
+    display: block;
+  }
+  /*
+   * Add the correct display in all browsers.
+   */
+  summary {
+    display: list-item;
+  }
+  /* Misc
+     ========================================================================== */
+  /**
+   * Add the correct display in IE 10+.
+   */
+  template {
+    display: none;
+  }
+  /**
+   * Add the correct display in IE 10.
+   */
+  [hidden] {
+    display: none;
+  }
+
+
+  @font-face {
+    font-family: "Audi Type";
+    src: url("../fonts/AudiType-ExtendedNormal.woff2") format("woff2"), 
+        url("../fonts/AudiType-ExtendedNormal.woff") format("woff"), 
+        url("../fonts/AudiType-ExtendedNormal.ttf") format("ttf"); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Audi Type";
+    src: url("../fonts/AudiType-ExtendedBold.woff2") format("woff2"), 
+        url("../fonts/AudiType-ExtendedBold.woff") format("woff"), 
+        url("../fonts/AudiType-ExtendedBold.ttf") format("ttf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+  @font-face {
+    font-family: "Audi Type Screen";
+    src: url("../fonts/AudiTypeScreen-Normal.woff2") format("woff2"), 
+        url("../fonts/AudiTypeScreen-Normal.woff") format("woff"), 
+        url("../fonts/AudiTypeScreen-Normal.ttf") format("ttf"); 
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Audi Type Screen";
+    src: url("../fonts/AudiTypeScreen-Bold.woff2") format("woff2"), 
+        url("../fonts/AudiTypeScreen-Bold.woff") format("woff"), 
+        url("../fonts/AudiTypeScreen-Bold.ttf") format("ttf");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+  }
+
+
+  .visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+          clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+img {
+    max-width: 100%;
+  }
+  a {
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  h1, h2, h3, h4, h5, h6, p {
+    display: block;
+    margin: 0;
+    padding: 0;
+    font-weight: 400;
+  }
+
+  h2, .h2 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 37px;
+    font-style: normal
+  }
+  h3, .h3 {
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 30px;
+  }
+
+  @media (max-width: 767px) {
+    h3, .h3 {
+        font-size: 20px;
+    } 
+  }
+  h4, .h4 {
+      font-size: 20px;
+      font-weight: 600;
+      font-style: normal;
+      line-height: 27px
+  }
+
+/*   * {
+      border: 1px solid red
+  } */
+
+  body {
+    -webkit-overflow-scrolling: touch;
+    font-size: 16px;
+    color: #333333;
+    font-family: "Audi Type", Arial, sans-serif;
+    background-color: #fff;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box
+  }
+  html {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+  }
+  *,
+  *::before,
+  *::after {
+    -webkit-box-sizing: inherit;
+            box-sizing: inherit;
+    outline: none;
+  }
+
+  .modal *,
+.modal *::before,
+.modal *::after {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  outline: none;
+}
+
+
+/*  ---------------*/
+
+/* Global CSS */
+
+section {
+    margin-bottom: 80px;
+    position: relative;
+}
+/* section.slider {
+    margin: 0
+} */
+section.white {
+    background: #FFFFFF
+}
+section.grey {
+    background-color: #F2F2F2
+}
+section.grey_request {
+    margin-top: -85px;
+    padding-top: 125px;
+    padding-bottom: 95px;
+}
+section.bootom__item-block,
+section.map {
+    margin-bottom: 5px;
+}
+.new-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    position: relative;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box
+}
+.flex-block {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+.btn {
+    display: inline-block;
+    height: 50px;
+    font-size: 15px;
+    line-height: 50px;
+    border: 1px solid;
+    text-align: center;
+    width: 278px;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    font-family: "Audi Type Screen";
+    letter-spacing: 0.5px;
+}
+.btn-white {
+    color: #ffffff;
+    border-color: #ffffff
+}
+.btn-white:hover {
+    background-color: #ffffff;
+    color: #000000
+}
+.btn-black {
+    color: #ffffff; 
+    background-color: #000000;
+}
+.btn-black_contur {
+    width: 378px;
+    height: 50px;
+    border: 1px solid #000000;
+    color: #000000
+}
+.btn-black_contur:hover {
+    background-color: #000000;
+    color: #ffffff
+}
+.btn-black:hover {
+    background-color: #BB0A30
+}
+.heading {
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    line-height: 44px;
+    text-align: center
+}
+.heading_black {
+    color: #000000
+}
+.heading_white {
+    color: #ffffff
+}
+.img {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%
+}
+footer.grey {
+    background-color: #333333;
+    margin-top: 5px;
+    padding: 80px 0
+}
+@media screen and (max-width: 1199px) {
+    section {
+        margin-bottom: 60px
+    }
+    section.grey_request {
+        margin-top: -20px 
+    }
+    .new-container {
+        padding-left: 30px;
+        padding-right: 30px  
+    }
+}
+@media screen and (max-width: 767px) {
+    .new-container {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+    .heading {
+        font-size: 21px;
+        line-height: 30px
+    }
+    .btn {
+        width: 288px
+    }
+}
+@media screen and (max-width: 425px) {
+    section.grey_request {
+        margin-top: -40px 
+    }
+}
+/* ---------- End Global CSS  --------------*/
+
+/* Start Select2 CSS */
+.select2-container--custom-select  {
+    width: 100% !important;
+    font-family: "Audi Type Screen"
+}
+.select2-container--custom-select  .select2-selection--single {
+    height: 30px
+}
+
+.select2-container--custom-select .select2-selection--single .select2-selection__rendered {
+    line-height: 30px;
+    position: relative;
+    padding-left: 0;
+    border-bottom: 1px solid rgba(0,0,0,0.8)
+}
+.select2-container--custom-select .select2-selection--single .select2-selection__rendered:before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    border-bottom: 1px solid #000000;
+    border-right: 1px solid #000000;
+    opacity: .5;
+    right: 5px;
+    top: 50%;
+    -webkit-transform: translateY(-50%) rotate(45deg);
+        -ms-transform: translateY(-50%) rotate(45deg);
+            transform: translateY(-50%) rotate(45deg);
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease;
+}
+.select2-container--custom-select.select2-container--open .select2-selection--single .select2-selection__rendered:before {
+    -webkit-transform: translateY(-70%) rotate(-135deg);
+        -ms-transform: translateY(-70%) rotate(-135deg);
+            transform: translateY(-70%) rotate(-135deg);
+    top: 70%
+}
+.select2-container--custom-select.select2-container--open .select2-dropdown--below {
+    margin-top: 1px;
+    border-radius: 0
+}
+.select2-container--custom-select .select2-results__option {
+    padding: 10px 6px 10px 30px
+}
+.select2-container--custom-select .select2-results__option.select2-results__option--highlighted,
+.select2-container--custom-select .select2-results__option[aria-selected=true]  {
+    background-color: #f2f2f2;
+    position: relative;
+}
+.select2-container--custom-select .select2-results__option[aria-selected=true]:before {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    background-color: #BB0A30;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 10px
+}
+.fltr-block__select-box.no-active .select2-container--custom-select {
+    opacity: 0.6;
+  
+}
+.fltr-block__select-box.no-active .select2-container--custom-select .select2-selection--single {
+    cursor: default
+}
+.select2-container--custom-select .select2-results>.select2-results__options {
+    max-height: 300px;
+    overflow-y: auto
+}
+
+/* ------------End Select2 CSS-------------- */
+
+/* Start Slider Navigation Block */
+.slider__new .swiper-button {
+    background-image: none;
+    width: 30px;
+    height: 30px;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: all 0.2 ease;
+    -o-transition: all 0.2 ease;
+    transition: all 0.2 ease
+}
+.slider__new .swiper-button:hover {
+    border-color: #BB0A30;
+    box-shadow: 0px 0px 15px rgba(0, 14, 86, 0.15);
+    -webkit-box-shadow: 0px 0px 15px rgba(0, 14, 86, 0.15);
+}
+.slider__new .swiper-button-next {
+    border-top: 4px solid #ffffff;
+    border-right: 4px solid #ffffff;
+    right: 50px
+}
+.slider__new .swiper-button-prev {
+    border-bottom: 4px solid #ffffff;
+    border-left: 4px solid #ffffff;
+    left: 50px
+}
+.slider__new.swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: 30px
+}
+.slider__new .swiper-pagination-bullet {
+    width: 30px;
+    height: 10px;
+    border-radius: 0;
+    background-color: #d9d9d9;
+  /*   border: 1px solid rgba(0, 0, 0, 0.3); */
+    opacity: .5
+}
+.slider__new .swiper-pagination-bullet-active {
+    background-color: #BB0A30;
+    opacity: 1
+}
+
+@media screen and (max-width: 1399px) {
+    .slider__new .swiper-button {
+        display: none
+    } 
+}
+@media screen and (max-width: 1199px) {
+    .slider__new.swiper-container-horizontal>.swiper-pagination-bullets {
+        bottom: 0
+    }
+}
+
+/* ------------- End Slider Navigation Block -------------*/
+
+
+/* Header Block CSS */
+.new-container.header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -ms-flex-line-pack: center;
+        align-content: center;
+}
+.header__left {
+    width: 70%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}
+.header__logo {
+    width: 30%;
+    text-align: right 
+}
+
+.header__description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    line-height: 18px;
+    letter-spacing: -0.2px;
+}
+.header__description .header__mark {
+    font-weight: bold;
+    color: #BB0A30
+}
+.header__work-phone,
+.header__address {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    position: relative;
+    padding-left: 20px
+}
+.header__work-phone .header__work,
+.header__address .header__address_description {
+    font-size: 12px;
+    line-height: 18px;
+    font-family: 'Audi Type Screen';
+} 
+.header__work-phone .header__phone,
+.header__address .header__address_text {
+    line-height: 20px;
+    letter-spacing: -0.2px;
+    color: #000000;
+    font-family: 'Audi Type';
+}
+
+.header__work-phone:before,
+.header__address:before {
+    content: "";
+    width: 10px;
+    height: 16px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%)
+}
+.header__work-phone:before {
+    background-image: url(../icon/mobile-phone.svg)
+}
+.header__address:before {
+    background-image: url(../icon/work-small.svg)
+}
+.header__top-menu {
+    width: 100%;
+    margin: 25px 0;
+    position: relative
+}
+.header__top-menu:after {
+    content: "";
+    width: 100%;
+    position: absolute;
+    height: 1px;
+    left: 0;
+    bottom: -25px;
+    background-color: #B2B2B2
+}
+.header__nav .link {
+    color: #333333;
+    margin-right: 15px;
+    position: relative;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    letter-spacing: -0.2px;
+}
+.header__nav .link:last-child {
+    margin-right: 0
+}
+.header__nav .link_before {
+    padding-left: 21px;
+    position: relative;
+}
+.header__nav .link_before:before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 13px;
+    background-color: #BB0A30;
+    left: 0;
+    top: 50%;
+    -webkit-transform: skewX(-20deg) translateY(-50%);
+        -ms-transform: skewX(-20deg) translateY(-50%);
+            transform: skewX(-20deg) translateY(-50%)
+}
+.header__nav .link:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #BB0A30;
+    left: 0;
+    bottom: -2px;
+    opacity: 0;
+    -webkit-transition: opacity 0.2s ease;
+    -o-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease
+}
+
+.header__nav .link:hover:after {
+    opacity: 1
+}
+.header__down-menu {
+    margin-top: 20px;
+    width: 100%;
+}
+.header__down-menu .link {
+    font-family: "Audi Type Screen";
+    color: #333333;
+    margin-right: 35px;
+    font-weight: bold;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+.header__down-menu .link:last-child {
+    margin-right: 0
+}
+.header__nav .link:hover,
+.header__down-menu .link:hover {
+    color: #BB0A30;
+}
+
+
+@media screen and (max-width: 1199px) {
+    .header__left {
+        width: 60%
+    }
+    .header__logo {
+        width: 40%
+    }
+    .header__address {
+        display: none
+    }
+}
+@media screen and (max-width: 767px) {
+    .header__left,
+    .header__logo  {
+        width: 50%
+    }
+    .header__left {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column
+    }
+    .header__description {
+        font-size: 14px;
+        padding: 5px 0;
+        line-height: 16px;
+    }
+    .header__work-phone {
+        padding: 0;
+        margin-top: 5px
+    }
+    .header__work {
+        display: none
+    }
+    .header__work-phone .header__phone {
+        font-size: 12px
+    }
+    .header__work-phone:before {
+        content: none
+    }
+    .header__top-menu {
+        margin-bottom: 10px
+    }
+    .header__top-menu:after {
+        width: calc(100% + 40px);
+        margin-left: -20px;
+        bottom: -10px
+    }
+    .header__nav {
+        display: block;
+        margin: 0 -20px;
+        padding: 0 20px;
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+        -webkit-overflow-scrolling: touch;
+    }
+    .header__nav .link {
+        display: inline-block
+    }
+    .header__down-menu {
+        display: block;
+        margin: 0 -20px;
+        margin-top: 20px;
+        padding: 0 20px;
+        width: calc(100% + 40px);
+        white-space: nowrap;
+        overflow-y: hidden;
+        overflow-x: scroll;
+        padding-bottom: 10px;
+        -webkit-overflow-scrolling: touch;
+    }
+    .header__down-menu .link {
+        display: inline-block
+    } 
+}
+@media screen and (max-width: 425px) {
+    .header__nav .link {
+        margin-right: 16px
+    }
+}
+@media screen and (max-width: 375px) {
+    .header__nav .link {
+        margin-right: 10px
+    }
+}
+@media screen and (max-width: 320px) {
+    .header__nav .link {
+        margin-right: 15px
+    }
+}
+
+/* --------End Header Block CSS ---------*/
+
+
+/* Start Slider Block CSS */
+.slider__item-slide {
+    position: relative;
+    width: 100%;
+}
+.slider__item-img {
+    min-height: 740px;
+    background-color: #000000
+}
+.slider__item-description {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+.slider__item-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}
+.slider__item-offer {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+    position: relative
+}
+.slider__item-offer .title {
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    color: #ffffff;
+    max-width: 70%
+}
+.slider__item-offer .subtitle {
+    color: #ffffff;
+    line-height: 28px;
+    font-weight: bold;
+    margin: 10px 0 20px;
+    max-width: 70%;
+    font-family: 'Audi Type Screen'
+}
+.slider__item-offer .slider__item-timer {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+@media screen and (max-width: 1199px) {
+    .slider__item-slide {
+        background-image: none !important;
+        height: auto
+    }
+    .slider__item-img {
+        min-height: 296px;
+    }
+    .slider__item-description {
+        position: relative;
+    }
+    .slider__item-content {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .slider__item-offer .title,
+    .slider__item-offer .subtitle {
+        max-width: 100%;
+        text-align: center;
+        color: #000000;
+    }
+    .slider__item-offer .slider__item-timer {
+        position: relative;
+        text-align: center;
+        width: 100%
+    }
+    .slider__item-offer .timer {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        display: -webkit-inline-box;
+        display: -ms-inline-flexbox;
+        display: inline-flex;
+        padding: 10px 45px;
+        background-color: #F2F2F2;
+    }
+    .slider__item-offer .btn-white {
+        margin-left: 50%;
+        margin-top: 20px;
+        -webkit-transform: translateX(-50%);
+            -ms-transform: translateX(-50%);
+                transform: translateX(-50%);
+        border-color: #000000;
+        color: #000000;
+    }
+}
+@media screen and (max-width: 767px) {    
+    .slider__item-content {
+        padding-top: 20px;
+        padding-bottom: 40px
+    }
+    .slider__item-offer .title {
+        font-size: 25px;
+        line-height: 28px;
+    }
+    .slider__item-offer .subtitle  {
+        line-height: 22px
+    }
+    .slider__item-offer .timer {
+        padding: 10px 38px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .slider__item-img {
+        min-height: 180px
+    }
+}
+/* ------------ End Slider Block CSS -------------*/
+
+/* Start Timer Block */
+.timer {
+    padding: 10px 15px;
+    background-color: #ffffff;
+    border-radius: 4px;
+}
+.timer__inner {
+    text-align: center;
+    margin: 0 5px
+}
+.timer__inner:first-child {
+    margin-left: 0
+}
+.timer__inner:last-child {
+    margin-right: 0
+}
+.timer__inner .timer-digit {
+    display: block;
+    min-height: 22px;
+    font-size: 22px;
+    line-height: 28px;
+    letter-spacing: -0.3px;
+}
+.timer__inner .timer-span {
+    display: block;
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+    line-height: 12px;
+    color: #999999;
+}
+.timer .timer-colon {
+    padding-top: 3px
+}
+/* ---------End Timer Block------------- */
+
+
+/* Start Filter Block */
+.fltr-block-wrapper {
+    position: relative;
+}
+
+.fltr-block {
+    margin: 60px -7.5px;
+    margin-bottom: 0;
+    position: relative
+}
+.fltr-block:nth-last-child(2){
+    margin-top: 0;
+    padding-top: 40px
+}
+.fltr-block__item {
+    padding: 0 7.5px;
+    font-family: "Audi Type Screen";
+}
+.fltr-block:nth-last-child(2).hide {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    -webkit-clip-path: inset(100%);
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+
+}
+.fltr-block__select-box {
+    width: 25%;
+}
+.fltr-block__select-box.volume-engine {
+    width: 16.7%
+}
+.fltr-block__inputs-box {
+    width: 33.3%;
+    position: relative;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}
+.fltr-block__label {
+    font-size: 12px;
+    width: 100%;
+    display: block;
+    margin-bottom: 5px;
+    line-height: 18px;
+    color: #000000;
+    opacity: .6;
+}
+.fltr-block__inputs-wrap {
+    width: 45%;
+    position: relative;
+}
+.fltr-block__inputs-wrap:before {
+    content: "";
+    width: 13px;
+    height: 13px;
+    background-image: url(../icon/ruble.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    right: 0px;
+    left: auto;
+}
+.fltr-block__input {
+    width: 100%;
+    text-align: center;
+    line-height: 28px;
+    background: #FFFFFF;
+    border: none;
+    border-bottom: 1px solid #000000;
+    font-family: "Audi Type Screen";
+    font-size: 16px
+}
+.input-defis {
+    width: 7px;
+    margin: 0 15px;
+    height: 1px;
+    background-color: #000000;
+}
+.fltr-block__button {
+    width: 16.7%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0;
+    padding-left: 15px
+
+}
+.btn_filter {
+    background-color: #000;
+    width: 100%;
+    border: none;
+    color: #ffffff;
+    height: 54px;
+    line-height: 54px;
+}
+.btn_filter-img {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
+.btn_filter-img img {
+    display: block;
+    width: 15px;
+    height: 15px;
+    margin-top: 1px;
+}
+
+@media screen and (min-width: 1200px) {
+.btn_filter:hover {
+    background-color: #BB0A30
+}
+.fltr-block__color-wrap .fltr-block__color-button:not(.active):hover:before {
+        opacity: 1
+}
+}
+.fltr-block__select-wrap {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}
+.fltr-block__select-box.volume-engine .select2-container--custom-select {
+    width: 45% !important
+}
+.fltr-block__select-box.volume-engine  .input-defis {
+    margin: 0 5px
+}
+.fltr-block__color-box {
+    width: 58.3%
+}
+.fltr-block__color-box .fltr-block__label {
+    margin-bottom: 7px
+}
+.fltr-block__color-wrap {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center
+}
+.fltr-block__color-wrap .fltr-block__color-button:first-child {
+    padding: 6px;
+    line-height: 17px;
+}
+.fltr-block__color-wrap .fltr-block__color-button {
+    background-color: #ffffff;
+    color: #333333;
+    line-height: 100%;
+    padding: 5px;
+    border: none;
+    position: relative;
+    margin-right: 1px;
+    display: block;
+    cursor: pointer;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease
+}
+.fltr-block__color-wrap .fltr-block__color-button:before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    border: 1px solid #808080;
+    opacity: 0;
+    -webkit-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease
+}
+.fltr-block__color-wrap .fltr-block__color-button.active {
+    cursor: default
+}
+.fltr-block__color-wrap .fltr-block__color-button.active:before {
+    opacity: 1
+}
+.fltr-block__color-button .rectangle {
+    width: 19px;
+    height: 19px
+}
+@media screen and (max-width: 1199px) {
+    .fltr-block {
+        margin-top: 40px
+    }
+    .fltr-block .fltr-block__item {
+        padding-top: 40px
+    }
+    .fltr-block .fltr-block__item:first-child,
+    .fltr-block .fltr-block__item:nth-child(2) {
+        padding-top: 0
+    }
+    .fltr-block__input {
+        text-align: left
+    }
+    .fltr-block__select-box,
+    .fltr-block__inputs-box,
+    .fltr-block__select-box.volume-engine {
+        width: 50%
+    }
+    .fltr-block__select-box.no-active .fltr-block__select {
+        opacity: .6
+    } 
+    .fltr-block__select {
+        width: 100%;
+        line-height: 30px;
+        padding: 0;
+        border: none;
+        background-color: transparent;
+        border-bottom: 1px solid rgba(0,0,0,0.8);
+        background-image: url(../icon/arrow-down.png);
+        background-repeat: no-repeat;
+        background-position: 97% 50%
+    }
+    .input-defis {
+        margin: 0 10px
+    }
+    .fltr-block__button {
+        text-align: right;
+        width: 50%;
+    }
+    .btn_filter {
+        width: 50%
+    }
+    .fltr-block__select-wrap .fltr-block__select {
+        width: 45%
+    }
+    .fltr-block__color-box {
+        width: 100%
+    }
+}
+@media screen and (max-width: 767px) {
+    .fltr-block {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        margin-left: 0;
+        margin-right: 0
+    }
+    .fltr-block .fltr-block__item:nth-child(2) {
+        padding-top: 40px
+    }
+    .fltr-block__item {
+        padding: 0;
+    }
+    .fltr-block__select-box,
+    .fltr-block__inputs-box,
+    .fltr-block__select-box.volume-engine,
+    .fltr-block__button,
+    .fltr-block__color-box  {
+        width: 100%;
+        max-width: 375px;
+    }
+    .fltr-block__button {
+        margin: 0 auto
+    }
+    .fltr-block__color-wrap .fltr-block__color-button {
+        margin-right: 11px;
+        margin-bottom: 5px
+    }
+    .fltr-block__button {
+        text-align: center;
+        position: relative;
+        padding-top: 40px;
+    }
+    .btn_filter {
+        width: 100%
+    }
+}
+/* -----------End Filter Block------------- */
+
+
+/* Start Catalog Block CSS */
+
+.catalog-block {
+    width: 100%;
+    margin-top: 60px
+}
+.catalog-block__sort {
+    font-family: "Audi Type Screen";
+    line-height: 28px
+}
+.catalog-block__sort .label {
+    margin-right: 15px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.catalog-block__sort .sort_view {
+    background-color: #ffffff;
+    color: #000000;
+    padding: 0;
+    padding-left: 25px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+@media screen and (min-width: 1200px) {
+    .catalog-block__sort .sort_view:hover
+    {
+        color: #BB0A30
+    }
+}
+.catalog-block__sort .sort_view:before {
+    content: "";
+    width: 1px;
+    height: 100%;
+    position: absolute;
+    background-color: #000000;
+    left: 10px;
+    top: 0;
+    -webkit-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease
+}
+.catalog-block__sort .sort_view:after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 7px;
+    left: 7px;
+    border-left: 1px solid;
+    border-top: 1px solid;
+    border-color: #000000;
+    -webkit-transition: border-color .2s ease;
+    -o-transition: border-color .2s ease;
+    transition: border-color .2s ease
+}
+@media screen and (min-width: 1200px) {
+.catalog-block__sort .sort_view:hover:before {
+    background-color: #BB0A30
+}
+.catalog-block__sort .sort_view:hover:after {
+    border-color: #BB0A30
+}
+}
+
+.catalog-block__sort .sort_view.asc:after {
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    top: 0
+}
+.catalog-block__sort .sort_view.desc:after {
+    bottom: 0;
+    -webkit-transform: rotate(-135deg);
+        -ms-transform: rotate(-135deg);
+            transform: rotate(-135deg)
+}
+.catalog-block__wrapper {
+    margin: 40px -7.5px 0
+}
+.more__item-box {
+    width: 100%;
+    text-align: center;
+    margin-top: 40px
+}
+@media screen and (max-width: 1199px) {
+    .catalog-block__wrapper {
+        margin-left: -5px;
+        margin-right: -5px
+    }
+}
+@media screen and (max-width: 767px) {
+    .more__item-box {
+        margin-top: 20px
+    }
+    .more__item {
+        width: 100%;
+        max-width: 280px
+    }
+    .catalog-block__wrapper {
+        margin-left: 0;
+        margin-right: 0
+    }
+}
+@media screen and (max-width: 370px) {
+    .catalog-block__sort .label {
+        display: block
+    }
+    .catalog-block__sort .sort_view {
+        margin-top: 10px
+    }
+}
+/* ------- End Catalog Block CSS ------------ */
+
+/* Start Item Block CSS */
+
+
+.item-box {
+    padding: 0 7.5px;
+    width: 33.3%;
+    margin-top: 15px
+}
+.item-box:nth-child(-n+3) {
+    margin-top: 0
+}
+.item {
+    width: 100%;
+    background-color: #ffffff;
+    padding: 30px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-transition: background-color .2s ease;
+    -o-transition: background-color .2s ease;
+    transition: background-color .2s ease;
+    position: relative;
+}
+.item:hover {
+    background-color: #F2F2F2
+}
+.item__img-wrapper {
+    position: relative;
+    width: 100%;
+}
+.item__img-wrapper:before {
+    content: attr(model-name);
+    position: absolute;
+    font-size: 140px;
+    right: -25px;
+    top: 0;
+    text-align: right;
+    line-height: 100px;
+    color: #F2F2F2;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease;
+}
+.item:hover .item__img-wrapper:before {
+    color: #ffffff; 
+}
+.item_row .item__img-wrapper:before {
+    top: 65px;
+    right: -35px
+}
+.item .icons__box {
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+.item .icons__box .icon {
+    display: inline-block
+}
+.item .icons__box .icon:first-child {
+    margin-right: 6px;
+
+}
+.item:hover .img__series-auto  {
+    color: #ffffff
+}
+.item .img__box {
+    position: relative;
+    display: block;
+    margin-top: 60px;
+    width: 100%;
+    text-align: center;
+}
+.item_row .img__box {
+    margin-top: 120px;
+}
+.item:not(.item_row) .img__box img {
+    height: 140px
+}
+.item .model-name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+    white-space: nowrap;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+}
+.item_row .model-name {
+    font-size: 32px;
+    line-height: 36px;
+}
+.item_row .model-name,
+.item_row .model-price,
+.item_row .model-priceCredit,
+.item_row .parametrs__wrapper {
+    width: 100%
+}
+.item .model-price {
+    margin-top: 10px;
+    width: 100%;
+    line-height: 20px;
+    font-weight: bold;
+    position: relative;
+    color: #BB0A30
+}
+.item_row .model-price {
+    margin-top: 20px;
+}
+.item .model-priceCredit {
+    font-family: "Audi Type Screen";
+    font-size: 14px;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    line-height: 100%
+}
+.item_row .model-priceCredit {
+    font-size: 16px
+}
+.item .tooltip_question {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 4px
+}
+.item .tooltip_question:hover {
+    cursor: pointer;
+}
+.item  .more-details__box {
+    margin-top: 33px;
+
+}
+.item  .more-details__box .more-details__link {
+    font-size: 15px;
+    color:  #000000;
+    font-family: "Audi Type Screen";
+    position: relative;
+    -webkit-transition: color .2s ease;
+    -o-transition: color .2s ease;
+    transition: color .2s ease
+}
+.item  .more-details__box .more-details__link:hover {
+    color: #BB0A30
+}
+.item  .more-details__box .more-details__link:after {
+    content: "";
+    position: absolute;
+    right: -13px;
+    top: 6px;
+    width: 8px;
+    height: 8px;
+    border-top: 1px solid;
+    border-right: 1px solid;
+    border-color: #000000;
+    -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+    -webkit-transition: border-color .2s ease;
+    -o-transition: border-color .2s ease;
+    transition: border-color .2s ease
+}
+.item  .more-details__box .more-details__link:hover:after {
+    border-color: #BB0A30
+}
+.item .btn_special-offer {
+    margin-top: 25px;
+    opacity: 0;
+    border: none;
+    width: 100%;
+}
+.item:hover .btn_special-offer {
+    opacity: 1
+}
+
+.item-box_row {
+    width: 100%;
+    padding: 0
+}
+.item_row {
+    min-height: 420px;
+    padding: 40px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row
+}
+.item_row .item__img-wrapper {
+    width: 41%
+}
+.item_row .item__description-wrapper {
+    width: 59%;
+    padding-left: 100px;
+    margin-top: 10px;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between
+}
+.parametrs__wrapper {
+    margin: 0 -20px;
+    margin-top: 30px
+}
+.parametrs__block {
+    margin-top: 30px;
+    padding: 0 20px;
+    margin-top: 5px;
+    font-family: "Audi Type Screen";
+    font-size: 14px;
+    line-height: 28px;
+}
+.parametrs__block:nth-child(-n+2) {
+    margin-top: 0;
+}
+.parametrs__block:nth-child(2n+1) {
+    width: 55%
+}
+.parametrs__block:nth-child(2n) {
+    width: 45%
+}
+.parametrs__block .parametrs__label {
+    color: #999999
+}
+.parametrs__block .parametrs__label,
+.parametrs__block .parametrs__text {
+    display: block
+}
+.parametrs__block .parametrs__text {
+    width: 100%;
+    -o-text-overflow: ellipsis;
+       text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.item_row .request-button {
+    width: 45%;
+    border: none;
+    margin-top: 20px
+}
+.item_row .more-details__box {
+    display: inline-block;
+    margin-top: 0;
+    width: 45%
+}
+.item_row .more-details__box .more-details__link {
+    top: 50%
+}
+
+@media screen and (max-width: 1199px) {
+    .item-box {
+        width: 50%;
+        padding: 0 5px;
+        margin-top: 10px
+    }
+    .item {
+        background-color: #F2F2F2;
+    }
+    .item-box:nth-child(3) {
+        margin-top: 10px
+    }
+    .item__img-wrapper:before {
+        color: #ffffff
+    }
+    .item .btn_special-offer {
+        opacity: 1;
+        background-color: #ffffff;
+        color: #000000
+    }
+    .item-box_row {
+        width: 100%
+    }
+    .item:not(.item_row) .img__box img {
+        height: 125px
+    } 
+    .item_row .item__description-wrapper {
+        width: 100%;
+        padding: 0 20px;
+        margin-top: 25px
+
+    }
+    .item_row .item__img-wrapper {
+        width: 100%
+    }
+    .item_row .request-button {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+    }
+    .item_row .item__img-wrapper:before {
+        right: 45px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .item-box {
+        margin: 0 -20px;
+        margin-top: 10px;
+        padding: 0;
+        width: calc(100% + 40px);
+    }
+    .item  {
+        padding: 40px 20px;
+    }
+    .item-box:nth-child(2) {
+        margin-top: 10px
+    }
+    .item:not(.item_row) .img__box img {
+        height: 100px
+    }
+    .item__img-wrapper:before {
+        font-size: 80px;
+        right: 0px;
+        top: 5px;
+    }
+    .item:not(.item_row) .item__description-wrapper {
+        margin-top: 20px;
+    }
+    .item .model-name,
+    .item_row .model-name {
+        font-size: 18px
+    }
+    .item_row .model-priceCredit {
+        font-size: 14px
+    }
+    .item_row .parametrs__wrapper {
+        margin: 0;
+        margin-top: 20px;
+    }
+    .item_row .parametrs__block
+     {
+        width: 100%;
+        padding: 0
+    }
+    .item_row .request-button {
+        width: 100%;
+    }
+    .item_row .more-details__box {
+        width: 100%;
+        margin-top: 20px;
+        display: block
+    }
+    .item_row .more-details__box .more-details__link {
+        top: 0
+    }
+    .item_row .item__description-wrapper {
+        padding: 0
+    }
+    .item_row .item__img-wrapper:before {
+        right: 10px;
+        top: 60px;
+    }
+}
+
+/* -------------End Item Block CSS ---------------*/
+
+/* BestOffers Tabs Block CSS */ 
+.bestoffer-background {
+    position: relative;
+    min-height: 565px;
+    margin-bottom: 276px;
+}
+.bestoffer-tabs__wrapper {
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    margin-top: 80px;
+}
+.bestoffer__wrapper {
+    margin-top: 60px
+}
+.bestoffer__main-tabs,
+.bestoffer__children-tabs {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center
+}
+.bestoffer__main-tab {
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: bold;
+    margin-right: 37px;
+    display: block;
+    text-transform: uppercase;
+    line-height: 28px;
+    opacity: .5;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease
+}
+.bestoffer__main-tab:last-child,
+.bestoffer__children-tab:last-child {
+    margin-right: 0
+}
+.bestoffer__main-tab:not(.active):hover,
+.bestoffer__main-tab.active {
+    opacity: 1
+}
+.bestoffer__main-tab:not(.active):hover,
+.bestoffer__children-tab:not(.active):hover {
+    cursor: pointer
+}
+.bestoffer__main-tab.active:hover,
+.bestoffer__children-tab.active:hover {
+    cursor: default
+}
+.bestoffer__content-wrapper {
+    margin-top: 60px
+}
+.bestoffer__content {
+    display: none
+}
+.bestoffer__content.active {
+    display: block
+}
+.bestoffer__children-tab {
+    color: #ffffff;
+    margin: 5px 0;
+    font-weight: bold;
+    font-family: "Audi Type Screen";
+    line-height: 20px;
+    margin-right: 30px;
+    position: relative;
+    display: block;
+}
+.bestoffer__children-tab:not(.active):after,
+.bestoffer__children-tab.active:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background-color: #ffffff;
+    bottom: -4px;
+    left: 0;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease
+}
+.bestoffer__children-tab:not(.active):after {
+    opacity: 0;
+}
+.bestoffer__children-tab:not(.active):hover:after {
+    opacity: 1;
+}
+.bestoffer__children-contWrapper {
+    margin-top: 40px;
+}
+.bestoffer__children-content {
+    display: none
+
+}
+.bestoffer__children-content.active {
+    display: block
+}
+
+@media screen and (max-width: 1199px) {
+    .bestoffer-tabs .heading {
+        font-size: 24px
+    }
+    .bestoffer-background {
+        min-height: 558px;
+        margin-bottom: 562px;
+        background-image: none !important;
+        background-color: #000000
+    }
+    .bestoffer__main-tabs,
+    .bestoffer__children-tabs {
+        margin: 0 -30px;
+        text-align: center;
+        padding: 0 30px;
+        padding-bottom: 10px;
+        display: block;
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        -webkit-overflow-scrolling: touch;
+    }
+    .bestoffer__main-tab,
+    .bestoffer__children-tab {
+        display: inline-block
+    }
+    .bestoffer-tabs .bestoffer__children-content .item_row {
+        background-color: transparent
+    }
+    .bestoffer-tabs .item .icons__box {
+        bottom: -70px;
+        top: auto;
+        padding: 0 70px;
+    }
+    .bestoffer-tabs .item_row .img__box {
+        margin-top: 15px;
+    }
+    .bestoffer-tabs .item_row .item__description-wrapper {
+        width: 100%;
+        padding-left: 0;
+        margin-top: 100px;
+        padding: 0 70px;
+    }
+    .bestoffer-tabs .item_row .item__img-wrapper:before {
+        display: none
+    } 
+}
+@media screen and (max-width: 767px) {
+    .bestoffer-tabs .heading {
+        font-size: 21px;
+        line-height: 24px;
+    }
+    .bestoffer-background {
+        min-height: 390px;
+        margin-bottom: 736px
+    }
+    .bestoffer-tabs__wrapper {
+        margin-top: 60px
+    }
+    .bestoffer__content-wrapper {
+        margin-top: 40px
+    }
+        .bestoffer__main-tabs,
+    .bestoffer__children-tabs {
+        margin: 0 -20px;
+        padding: 0 20px;
+        padding-bottom: 10px
+    }
+    .bestoffer-tabs .item-box_row {
+        margin-left: 0;
+        margin-right: 0;
+        width: 100%;
+    }
+    .bestoffer-tabs .item_row {
+        padding: 0
+    }
+    .bestoffer__children-contWrapper {
+        margin-top: 30px
+    }
+    .bestoffer-tabs .item_row .img__box {
+        margin-top: 0
+    }
+    .bestoffer-tabs .item .icons__box,
+    .bestoffer-tabs .item_row .item__description-wrapper {
+        padding: 0
+    }
+}
+@media screen and (min-width:500px) and (max-width: 639px) {
+    .bestoffer-background {
+        margin-bottom: 766px
+    }
+}
+@media screen and (max-width: 425px) {
+    .bestoffer-background {
+        margin-bottom: 723px
+    }
+}
+@media screen and (max-width: 390px) {
+    .bestoffer-background {
+        margin-bottom: 703px
+    }
+}
+/* ---------- End BestOffers Tabs Block CSS -----------*/ 
+
+/* Start BestOffers Catalog Row */
+.bestoffer__catalog-wrapper {
+    margin-top: 80px;
+}
+.bestoffer__catalog-wrapper .item_row .request-button {
+    -webkit-box-ordinal-group: 2;
+        -ms-flex-order: 1;
+            order: 1;
+    opacity: 0;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease
+}
+.bestoffer__catalog-wrapper .item_row:hover .request-button {
+    opacity: 1;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease
+}
+.bestoffer__catalog-wrapper .item_row .more-details__box {
+    margin-left: 0;
+    width: 50%
+}
+.bestoffer__catalog-wrapper .item-box_row {
+    margin-top: 20px
+}
+.bestoffer__catalog-wrapper .item-box_row:first-child {
+    margin-top: 0
+}
+
+@media screen and (max-width: 1199px) {
+    .bestoffer__catalog-wrapper .item_row .request-button {
+        opacity: 1;
+        color: #000000;
+        background-color: #ffffff
+    }
+    .bestoffer__catalog-wrapper .item-box_row {
+        margin-top: 10px
+    }
+}
+@media screen and (max-width: 767px) {
+    .bestoffer__catalog-wrapper .item_row .more-details__box {
+        width: 100%
+    }
+}
+/* ---------- End BestOffers Catalog Row -----------*/ 
+
+
+/* Start Credit Block CSS */
+.credit__description {
+    background-color: #000000;
+    padding: 40px;
+}
+.credit__description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center
+}
+.credit__description,
+.credit__img-box {
+    width: 50%;
+    min-height: 600px
+}
+.heading_credit {
+    text-align: left
+}
+.credit__subtitle,
+.bestoffer__black-rect-subtitle {
+    font-size: 20px;
+    opacity: 0.8;
+    line-height: 28px;
+    color: #ffffff;
+    margin-top: 20px;
+    font-family: "Audi Type Screen";
+}
+.credit__text,
+.bestoffer__black-rect-text {
+font-size: 16px;
+line-height: 28px;
+width: 100%;
+color: #ffffff;
+font-family: "Audi Type Screen";
+margin-top: 20px;
+}
+.credit__description .btn-white,
+.bestoffer__black-rect .btn-white {
+  margin-top: 40px
+}
+@media screen and (max-width: 1199px) {
+    .heading_credit {
+        font-size: 24px;
+        line-height: 30px
+    }
+    .credit__description, 
+    .credit__img-box {
+        width: 100%;
+        min-height: 375px
+    }
+    .credit__description {
+        -webkit-box-ordinal-group: 2;
+            -ms-flex-order: 1;
+                order: 1;
+        padding: 40px 60px 60px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .credit__description {
+        padding: 40px 30px;
+        width: 100%
+    }
+    .heading_credit {
+        font-size: 21px;
+        width: 100%
+    }
+    .credit__description, .credit__img-box {
+        min-height:  210px
+    }
+    .credit__subtitle {
+        width: 100%
+    } 
+    .credit__text {
+        width: 100%
+    }
+    .credit__description .btn-white, .bestoffer__black-rect .btn-white {
+        width: 100%
+    }
+}
+
+/* --------------End Credit Block CSS -----------------*/
+
+/* Start Best Offer Block on 100% width */
+.advantages__content {
+    display: none;
+    position: relative;
+}
+.advantages__content.active {
+    display: block
+}
+.advantages__img {
+    min-height: 612px;
+}
+.advantages__block-absolute {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 0;
+    padding: 60px 0;
+}
+.advantages {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column
+}
+.heading__advantages {
+    text-align: left;
+    letter-spacing: 0.5px;
+    max-width: 75%
+}
+.advantages__subtitle {
+    margin-top: 30px;
+    width: 75%;
+    font-size: 20px;
+    line-height: 24px;
+    color: #ffffff;
+    opacity: 0.8;
+    font-family: "Audi Type Screen";
+}
+.advantages .btn-black {
+    margin-top: 45px
+}
+.advantages__tabs {
+    margin-top: 35px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+}
+.advantages__tab {
+    opacity: .5;
+    margin-right: 50px;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease
+}
+.advantages__tab:last-child {
+    margin-right: 0
+}
+.advantages__tab.active,
+.advantages__tab:not(.active):hover {
+    opacity: 1
+}
+.advantages__tab.active {
+    cursor: default;
+}
+.advantages__tab:not(.active):hover {
+    cursor: pointer;
+}
+@media screen and (max-width: 1199px) {
+    .advantages__img {
+    min-height: 340px;
+    }
+    .advantages__block-absolute {
+        padding-bottom: 0;
+        position: relative;
+    }
+    .heading__advantages {
+        color: #000000;
+        width: 100%;
+        max-width: 100%;
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .advantages__subtitle {
+        color: #000000
+    }
+    .advantages__tabs {
+        position: absolute;
+        top: 325px;
+        white-space: nowrap;
+        padding-bottom: 10px;
+        width: 100%;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        display: block;
+        -webkit-overflow-scrolling: touch;
+    } 
+}
+@media screen and (max-width: 767px) {
+    .advantages__img {
+        min-height: 240px
+    }
+    .advantages__tabs {
+        position: absolute;
+        top: 265px;
+        margin-top: 0;
+    }
+    .heading__advantages {
+        font-size: 21px;
+        line-height: 25px
+    }
+    .advantages__subtitle  {
+        width: 100%
+    }
+    .advantages__tab {
+        display: inline-block
+    }
+    .advantages .btn-black {
+        width: 100%
+    }
+}
+/* ------------ End Best Offer Block on 100% width ------------ */
+
+
+/* Start Best Offer Rect Block CSS */
+.bestoffer__rect-subtitle {
+    display: block;
+    line-height: 28px;
+    font-family: "Audi Type Screen";
+    text-align: center;
+    color: #000000;
+    margin-top: 40px
+}
+.bestoffer-section {
+    margin-top: 80px;
+}
+.bestoffer__black-rect {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    width: 50%;
+    background-color: #000000;
+    min-height: 600px
+}
+.bestoffer__black-rect:nth-child(2n+1) {
+    padding: 0 50px 0 110px;
+}
+.bestoffer__black-rect:nth-child(2n) {
+    padding: 0 110px 0 50px;
+}
+.heading_bestoffer-rect {
+    width: 100%;
+    text-align: left;
+}
+.bestoffer__black-rect-img {
+    min-height: 600px;
+    width: 50%;
+}
+@media screen and (max-width: 1199px) {
+    .bestoffer__rect .heading {
+        font-size: 24px;
+        line-height: 30px;
+    }
+    .bestoffer-section {
+        margin-top: 60px
+    }
+    .bestoffer__black-rect,
+    .bestoffer__black-rect-img {
+        width: 100%
+    }
+    .bestoffer__black-rect:nth-child(2n+1),
+    .bestoffer__black-rect:nth-child(2n) {
+        padding: 40px 30px 60px;
+        min-height: 360px
+    }
+    .bestoffer__black-rect-img {
+        min-height: 325px;
+    }
+    .bestoffer__black-rect-img:nth-child(2) {
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1
+    }
+}
+@media screen and (max-width: 767px) {
+    .bestoffer__rect .heading {
+        font-size: 21px;
+    }
+    .bestoffer__black-rect-img {
+        min-height: 240px;
+    }
+    .bestoffer__black-rect:nth-child(2n+1),
+    .bestoffer__black-rect:nth-child(2n) {
+        padding-bottom: 80px
+    }
+}
+/* ---------------End Best Offer Rect Block CSS -----------*/
+
+
+/* Start Count Item Block */
+.count__item {
+    width: 33.3%;
+    padding: 85px 0 40px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    border-right: 1px solid #000000;
+}
+.count__item:last-child {
+    border-right: none
+}
+.count__item-heading {
+    color: #000000;
+    font-weight: bold;
+    font-size: 54px;
+    line-height: 66px;
+}
+.count__item-heading .before-heading,
+.count__item-heading .after-heading{
+    font-size: 12px;
+    font-family: "Audi Type Screen";
+}
+.count__item-heading .before-heading {
+    margin-right: 10px
+}
+.count__item-heading .after-heading {
+    margin-left: 10px
+}
+.count__item-info {
+    color: #000000;
+    text-align: center
+}
+@media screen and (max-width: 1199px) {
+    .count__item {
+        padding: 45px 10px 55px;
+    } 
+    .count__item-heading {
+        font-size: 36px
+    }
+}
+@media screen and (max-width: 767px) {
+    .count__item {
+        padding: 45px 17px 55px;
+        width: 100%;
+        margin: 0 10px;
+        border-right: none;
+        border-bottom: 1px solid #979797;
+    }
+    .count__item:last-child{
+        border-bottom: none
+    }
+}
+/* ------------ End Count Item Block------------- */
+
+/* Start Support Auto Block CSS */
+.bottom__item-wrapper.left {
+    width: 66.6%;
+    padding-right: 2.5px
+}
+.bottom__item-wrapper.right {
+    width: 33.3%;
+    padding-left: 2.5px;
+}
+
+.bottom__item {
+    position: relative;
+}
+.bottom__item-img {
+    min-height: 612px
+}
+
+.bottom__item-desctiption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 50px 60px 35px;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column 
+}
+.bottom__item-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+}
+.bottom__item-price {
+    font-size: 20px;
+    color: #ffffff;
+    font-family: "Audi Type Screen";
+    margin-top: 15px;
+}
+.bottom__item-info {
+    font-size: 14px;
+    color: #ffffff;
+    font-family: "Audi Type Screen";
+    margin-top: 15px;
+}
+@media screen and (max-width: 1199px) {
+    .bottom__item-wrapper.left,
+    .bottom__item-wrapper.right {
+        width: 100%;
+        padding: 0
+    }
+    .bottom__item-wrapper.right {
+        margin-top: 5px
+    }
+    .bottom__item-img {
+        min-height: 500px
+    }
+    .bottom__item-desctiption {
+        padding: 60px 30px 30px
+    }
+}
+@media screen and (max-width: 767px) {
+    .bottom__item-img {
+        min-height: 240px
+    }
+    .bottom__item-text .heading,
+    .bottom__item-text .bottom__item-price,
+    .bottom__item-text .bottom__item-info {
+        color: #333333
+    }
+    .bottom__item-desctiption {
+        padding: 30px 20px 60px;
+        position: relative
+    } 
+    .bottom__item-link {
+        width: 100%;
+        margin-top: 20px;
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        color: #000000;
+        -webkit-transition: all .2s ease;
+        -o-transition: all .2s ease;
+        transition: all .2s ease
+    }
+    .bottom__item-link:hover {
+        background-color: #000000;
+        color: #ffffff
+    }
+}
+
+/* ------------End Support Auto Block CSS ------------*/
+
+/* Start Map Block CSS */
+section.map {
+    margin-top: 5px;
+    position: relative
+}
+.map__widjet  {
+    width: 100%;
+    height: 700px;
+}
+.map-block {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    left: 25%;
+    min-width: 378px;
+}
+.map__info {
+    padding-left: 100px;
+}
+.map__info-wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    background: #ffffff;
+    width: 100%;
+    z-index: 1;
+    padding: 40px 50px 60px;
+}
+.map__city-block {
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 25px;
+}
+
+.map__city-description {
+    margin-top: 40px;
+    font-family: "Audi Type Screen"
+}
+
+.map__city-description .description__item {
+    margin-top: 22px
+}
+.map__city-description .description__item:first-child {
+    margin-top: 0
+}
+.map__city-description .description__item:nth-child(4) {
+    margin-top: 40px
+}
+.map__city-description .description__item .description__item-img {
+    width: 20px;
+    height: 20px;
+    text-align: center
+}
+.map__city-description .description__item .description__item-img img {
+    width: 100%;
+    height: 100%
+}
+.map__city-description .description__item .description__item-text,
+.map__city-description .description__item .link-email {
+    display: block;
+    line-height: 20px;
+    color: #333333;
+    margin-left: 10px;  
+    -webkit-transition: color .2s ease;  
+    -o-transition: color .2s ease;  
+    transition: color .2s ease 
+}
+.map__city-description .description__item-link .btn-call {
+    width: 100%;
+    margin-top: 40px
+}
+.map__city-description  .description__item-work {
+    margin-left: 10px
+}
+.map__city-description  .description__item-work .day {
+    display: block;
+    margin-top: 10px
+}
+.map__city-description  .description__item-work .day:first-child {
+    margin-top: 0
+}
+.map__city-description .description__item .link-email:hover,
+.map__city-description .description__item .link:hover {
+    color: #BB0A30
+}
+@media screen and (max-width: 1199px) {
+    .map-block {
+        left: 30px
+    }
+}
+@media screen and (max-width: 767px) {
+    .map-block {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+        min-width: auto;
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+        -webkit-transform: none;
+            -ms-transform: none;
+                transform: none;
+    }
+    .map__info-wrapper {
+        padding: 40px 20px 60px;
+        background-color: #F2F2F2;    
+    }
+    .map__widjet  {
+        height: 399px
+    }
+}
+/* ----------- End Map Block CSS ------------*/
+
+
+/* Start Footer Block CSS */
+.footer {
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end
+}
+
+.footer__description {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 100%;
+}
+.footer__mark {
+    display: block;
+    color: #BB0A30;
+    font-weight: bold;
+    line-height: 20px;
+}
+.footer__city {
+    display: block;
+    color: #ffffff;
+    font-weight: normal;
+    line-height: 20px;
+}
+.footer__nav {
+    width: 80%;
+    margin-top: 25px;
+}
+.footer__nav-link {
+    font-family: "Audi Type Screen";
+    font-size: 13px;
+    line-height: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    position: relative;
+    margin-right: 30px;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+.footer__nav-link:last-child {
+    margin-right: 0
+}
+.footer__nav-link:after,
+.footer__confidencial-link:after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    background-color: #ffffff;
+    bottom: -2px;
+    left: 0;
+    opacity: 0;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease 
+}
+.footer__nav-link:hover:after,
+.footer__confidencial-link:hover:after {
+    opacity: 1
+}
+.footer__social-wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 20%;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;    
+}
+.footer__social-link {
+    margin-right: 30px;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease
+}
+.footer__social-link:hover {
+    opacity: .7
+}
+.footer__copyright-wrapper {
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #4D4D4D;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center
+}
+.footer__copyright, 
+.footer__confidencial-link {
+    font-family: "Audi Type Screen";
+    position: relative;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 17px;
+    opacity: .9;
+}
+.footer__text {
+    margin-top: 40px;
+    opacity: .8;
+    width: 100%;
+    text-align: left;
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 24px;
+    font-family: "Audi Type Screen";
+}
+@media screen and (max-width: 1199px) {
+    .footer__nav,
+    .footer__social-wrapper,
+    .footer__copyright {
+    width: 100%
+}
+.footer__social-wrapper {
+    width: 100%;
+    margin-top: 40px;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+}
+.footer__confidencial-link {
+    margin-top: 30px;
+}
+}
+@media screen and (max-width: 767px) {
+    .footer__nav {
+        margin-top: 30px
+    } 
+    .footer__nav-link {
+        margin-top: 10px;
+        margin-bottom: 10px 
+    }
+}
+
+/* End Footer Block CSS */
+
+/* Start Open Form CSS */
+.form__open-close {
+position: absolute;
+background-image: none;
+width: 45px;
+height: 45px;
+background-color: #000000;
+border-radius: 50%;
+right: auto;
+top: -80px;
+left: 50%;
+-webkit-transition: background-color 0.2s ease;
+-o-transition: background-color 0.2s ease;
+transition: background-color 0.2s ease;
+-webkit-transform: translateX(-50%) rotate(45deg);
+    -ms-transform: translateX(-50%) rotate(45deg);
+        transform: translateX(-50%) rotate(45deg)
+}
+.form__open-close:before,
+.form__open-close:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+    margin-top: 50%;
+    background-color: #ffffff;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+}
+.form__open-close:before {
+    width: 15px;
+    height: 2px;
+}
+.form__open-close:after {
+    width: 2px;
+    height: 15px;
+}
+.form__open-close:hover {
+    cursor: pointer;
+    background-color: #4c4c4c;
+    /* background-color: #BB0A30; */
+}
+
+/* Start ToolTip Block CSS */
+.tooltip:hover {
+    cursor: pointer;    
+}
+
+.tooltipster-custom .tooltipster-box {
+    background: #1A1A1A;
+    border-radius: 0;
+    border: none
+}
+
+.tooltipster-custom .tooltipster-content {
+    padding: 10px 15px;
+    font-family: "Audi Type Screen";
+    color: #ffffff;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.tooltipster-custom.tooltipster-bottom .tooltipster-arrow-border,
+.tooltipster-custom.tooltipster-bottom  .tooltipster-arrow-background  {
+    border-bottom-color: #1A1A1A !important
+}
+.tooltipster-custom.tooltipster-top .tooltipster-arrow-border,
+.tooltipster-custom.tooltipster-top .tooltipster-arrow-background {
+    border-top-color: #1A1A1A !important
+}
+/* ------------ End ToolTip Block CSS ----------------*/
+
+
+/* Start Modal Block CSS */
+.jquery-modal.blocker.current {
+    z-index: 3;
+}
+.modal.modal__custom {
+    max-width: 1170px;
+    width: 100%;
+    min-height: 570px; 
+    -webkit-box-shadow: none; 
+            box-shadow: none;
+    background-color: #F2F2F2;
+    border-radius: 0;
+    padding: 125px 20px 80px;
+}
+.modal.modal__custom a.close-modal {
+    background-image: none;
+    width: 45px;
+    height: 45px;
+    background-color: #000000;
+    border-radius: 50%;
+    right: auto;
+    top: 40px;
+    left: 50%;
+    -webkit-transition: background-color 0.2s ease;
+    -o-transition: background-color 0.2s ease;
+    transition: background-color 0.2s ease;
+    -webkit-transform: translateX(-50%) rotate(45deg);
+        -ms-transform: translateX(-50%) rotate(45deg);
+            transform: translateX(-50%) rotate(45deg)
+}
+.modal.modal__custom a.close-modal:hover {
+    background-color: #4c4c4c;
+    /* background-color: #BB0A30 */
+}
+.modal.modal__custom a.close-modal:before,
+.modal.modal__custom a.close-modal:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: 50%;
+    margin-top: 50%;
+    background-color: #ffffff;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+            transform: translateX(-50%) translateY(-50%);
+}
+.modal.modal__custom a.close-modal:before {
+    width: 15px;
+    height: 2px
+}
+.modal.modal__custom a.close-modal:after {
+    width: 2px;
+    height: 15px
+}
+.modal.modal__custom.modal__mini .form__wrapper {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0 150px
+}
+.modal.modal__custom.modal__mini .form__wrapper .name,
+.modal.modal__custom.modal__mini .form__wrapper .surname,
+.modal.modal__custom.modal__mini .form__wrapper .form__select-wrapper {
+    display: none
+}
+.modal.modal__custom.modal__mini .form__wrapper .form__checkbox-wrapper {
+    width: 50%
+}
+.modal.modal__custom.modal__mini .form__wrapper .form__button-wrapper {
+    margin-top: 40px
+}
+
+@media screen and (max-width: 1199px) {
+    .modal.modal__custom.modal__mini .form__wrapper .form__checkbox-wrapper {
+        width: 100%
+    }
+}
+@media screen and (max-width: 767px) {
+    .jquery-modal.blocker.current {
+        padding: 0;
+        background-color: #f2f2f2
+    }
+    .modal.modal__custom.modal__mini .form__wrapper {
+        padding: 0
+    }
+    .modal.modal__custom {
+        -webkit-overflow-scrolling: touch;
+        height: 100%;
+        overflow-y: scroll;
+        padding: 125px 20px 60px;
+    }
+    .modal.modal__custom.modal__mini .form__block {
+        position: relative;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+                transform: translateY(-50%);
+    }
+}
+/* ----------End Modal Block CSS ------------- */
+
+
+/* Start Form Request CSS */
+.form__block {
+    font-family: "Audi Type Screen"
+}
+.form__heading {
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Audi Type";
+    text-align: center
+}
+.form__subtitle {
+    margin-top: 10px;
+    line-height: 28px;
+    text-align: center
+}
+.form__wrapper {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 -7.5px;
+    margin-top: 40px;
+    padding: 0 190px
+}
+.form__input-block,
+.form__select-wrapper,
+.form__checkbox-wrapper,
+.form__button-wrapper {
+    position: relative;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    width: 50%;
+    padding: 0 7.5px;
+    margin-bottom: 40px
+}
+.form__checkbox-wrapper {
+    margin-bottom: 0;
+    width: 59%
+}
+.form__button-wrapper {
+    width: 41%;
+    margin-bottom: 0;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+}
+.form__label {
+    color: #000000;
+    opacity: 0.6;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    padding: 0 7.5px;
+    -webkit-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+            transform: translateY(-50%);
+    font-size: 16px;
+    line-height: 24px;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+.form__select-wrapper .form__label {
+    font-size: 12px;
+    line-height: 18px;
+    top: -15px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none
+} 
+.form__input:focus + .form__label,
+.form__input + .form__label.up {
+    font-size: 12px;
+    line-height: 18px;
+    top: -15px;
+    -webkit-transform: none;
+        -ms-transform: none;
+            transform: none
+}
+.form__input-block.incorrect .incorrect-text {
+    position: absolute;
+    width: 100%;
+    left: 7.5px;
+    bottom: -15px;
+    font-size: 13px;
+    color: #BB0A30;
+}
+.form__input-block.incorrect .form__input + .form__label,
+.form__input-block.incorrect .form__input:focus + .form__label {
+    color: #BB0A30;
+    opacity: 1;
+}
+.form__input {
+    border: none;
+    background-color: transparent;
+    line-height: 30px;
+    padding: 0;
+    height: 30px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0,0,0,0.8)
+}
+.form__open-block .form__input {
+    height: 31px
+}
+.form__input-block.incorrect .form__input {
+    border-color: #BB0A30
+} 
+.form__checkbox-item {
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 25px
+}
+.form__checkbox-item:last-child {
+    margin-bottom: 0
+}
+.form__input-checkbox {
+    display: none;
+}
+.form__label-checkbox {
+    font-size: 12px;
+    line-height: 28px;
+    cursor: pointer;
+    -webkit-transition: all .2s ease;
+    -o-transition: all .2s ease;
+    transition: all .2s ease
+}
+.form__label-checkbox:before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    left: 0;
+    height: 25px;
+    opacity: 0.5;
+    border: 1px solid #000000
+}
+/* .form__label-checkbox:hover:before {
+    border-color: #BB0A30
+} */
+.form__label-checkbox:after {
+    content: "";
+    position: absolute;
+    width: 19px;
+    left: 4px;
+    top: 4px;
+    opacity: 0;
+    background-color: #333333;
+    height: 19px;
+    -webkit-transition: opacity .2s ease;
+    -o-transition: opacity .2s ease;
+    transition: opacity .2s ease
+}
+
+.form__open-block .form__label-checkbox:after {
+    left: 3px;
+    top: 3px;
+}
+.form__input-checkbox:checked + .form__label-checkbox:after {
+    opacity: 1
+}
+.form__input-submit {
+    width: 100%;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+}
+
+.form__label-checkbox.incorrect {
+    color: #BB0A30
+}
+.form__label-checkbox.incorrect:before {
+    border-color: #BB0A30
+}
+
+.form__block .form__send {
+    width: 100%;
+    text-align: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            -webkit-transform: translateX(-50%) translateY(-50%);
+                -ms-transform: translateX(-50%) translateY(-50%);
+                    transform: translateX(-50%) translateY(-50%);
+}
+
+.form__send-heading {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    font-family: "Audi Type";
+    margin-bottom: 10px
+}
+.form__send.no-ok .form__send-text {
+    margin-bottom: 20px
+}
+.form__send.no-ok .btn-black_contur {
+    width: 278px
+}
+
+@media screen and (max-width: 1199px) {
+    .form__wrapper {
+        margin: 0;
+        margin-top: 40px;
+        padding: 0 150px
+    }
+    .form__input-block, 
+    .form__select-wrapper, 
+    .form__checkbox-wrapper, 
+    .form__button-wrapper {
+        width: 100%;
+        padding: 0
+    }
+    .form__button-wrapper {
+        width: 100%;
+        margin-top: 40px
+    }
+    .form__label {
+        padding: 0
+    } 
+    .form__select {
+        width: 100%;
+        -webkit-box-sizing: border-box;
+                box-sizing: border-box;
+        background-color: transparent;
+        line-height: 30px;
+        padding: 0 30px 0 0;
+        border: none;
+        border-bottom: 1px solid rgba(0,0,0,0.8);
+        background-image: url(../icon/arrow-down.png);
+        background-repeat: no-repeat;
+        background-position: 97% 50%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .form__wrapper {
+        padding: 0
+    }
+    .form__input-block.incorrect .incorrect-text {
+        width: 100%;
+        white-space: nowrap;
+        -o-text-overflow: ellipsis;
+           text-overflow: ellipsis;
+        overflow: hidden
+    }
+}
